@@ -25,5 +25,3 @@
     "background_color": "white",
     "theme_color": "white"
 }
-
-
