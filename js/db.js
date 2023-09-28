@@ -12,7 +12,7 @@ async function createDB() {
             const store = db.createObjectStore("anotacao", {
               keyPath: "titulo",
             });
-            store.createIndex("categoria", "categoria");
+            store.createIndex("id", "id");
             showResult("Banco de dados criado!");
         }
       },
